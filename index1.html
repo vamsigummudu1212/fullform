@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h2>Register for class</h2>
+        <label for="subject">choose a sub</label>
+        <select name="subject">
+            <optgroup label="Biology">
+                <option value="Botany">Botany</option>
+                <option value="Zoology">Zoology</option>
+            </optgroup>
+            <optgroup label="CSE">
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+            </optgroup>
+        </select>
+
+        <label for="month">select month:</label>
+    <input type="month" id="month" name="month">
+    <label for="week">select a week:</label>
+    <input type="week" id="week" name="week">
+
+        <label for="apt">Select a time:</label>
+        <input type="time" id="apt" name="apt">
+
+        <input type="button" onclick="alert('Registration Successful')" value="Register">
+        
+    </form>
+</body>
+</html>

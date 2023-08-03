@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <marquee><h2>Student Details</h2></marquee>
+    <form action="index2.html">
+        <fieldset>
+            <legend>Student</legend>
+            <label for="fname"> First Name</label>
+            <input type="text" name="fname">
+            <label for="mname"> Middle Name</label>
+            <input type="text" name="mname">
+            <label for="lname"> Last Name</label>
+            <input type="text" name="lname"><br>
+            
+            <input type="reset">
+        
+        <label for="birth">Birthday:</label>
+        <input type="date" id="birth" name="birthday">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" required>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" required>
+        <input type="hidden" id="custld" name="custld" value="123457">
+        
+
+        <label for="phonenumber">Mobile Number</label>
+        <input type="tel" name="phonenumber" required>
+
+        <label for="gender">Gender</label>
+        <select id="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="others">others</option>
+        </select><br>
+
+        
+
+        
+        <label for="zipcode">Zipcode</label>
+        <input type="number" name="zipcode" required>
+
+        <label for="age">Age(between 18&24)</label>
+        <input type="number" id="age" name="age" min="18" max="24">
+
+        
+
+
+
+        
+
+        <label for="file">Select a file:</label>
+        <input type="file" id="file" name="file">
+
+        <label for="gsearch">Search Google:</label>
+        <input type="search" id="gsearch" name="gsearch">
+ 
+        
+
+
+        <label for="home">Add your home page:</label>
+        <input type="url" id="home" name="home">
+        <label for="fav">Select your favourite color:</label>
+        <input type="color" id="fav" name="fav">
+         
+        <p>choose fav launguage:</p>
+        <input type="radio" id="html" name="fav" value="HTML">HTML<br>
+        
+        <input type="radio" id="css" name="fav" value="HTML">CSS<br>
+        
+
+        <label for="about">About</label>
+        <input type="textarea" name="about" required><br>
+        <input type="checkbox" id="subject1"name="subject1"value="Telugu">
+        I know Telugu<br>
+        <input type="checkbox" id="subject2"name="subject2"value="English">
+        I know English<br>
+
+        <div id="submit">
+            <input type="submit" value="Submit" required>
+        </div>

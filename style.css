@@ -1,0 +1,27 @@
+label{
+    display:block;
+    padding:10px;
+}
+form{
+    text-align:center;
+    background-image: url('images.png');
+    margin:10px 500px 10px 500px;
+    text-decoration-color: white;
+}
+h1{
+    background-image: url('images.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#submit{
+    padding:10px;
+}
+input[type=submit]{
+    background-color:beige;
+    
+}
+input[type=submit]:hover{
+
+    background-image: url('images.png');
+}
